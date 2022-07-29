@@ -36,6 +36,7 @@ namespace QAOA {
         use register = Qubit[4];
         let gamma = 4.0;
         let beta = 3.0;
+        ApplyToEach(H, register);
         ProblemUnitary(register, gamma);
         MixingUnitary(register, beta);
         ResetAll(register);
