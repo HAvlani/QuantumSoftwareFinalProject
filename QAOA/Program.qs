@@ -8,7 +8,7 @@ namespace QAOA {
 
     @EntryPoint()
     operation Main() : Unit {
-        Test();
+        MakeCircuit();
     }
     
     operation Rzz(register: Qubit[], theta: Double, indexC: Int, indexT: Int) : Unit {
@@ -32,11 +32,7 @@ namespace QAOA {
 
     }
 
-
-
-
-
-    operation Test() : Unit {
+    operation MakeCircuit() : Unit {
         use register = Qubit[4];
         let gamma = 4.0;
         let beta = 3.0;
