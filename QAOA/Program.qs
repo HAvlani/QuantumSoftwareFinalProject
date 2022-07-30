@@ -8,7 +8,7 @@ namespace QAOA {
 
     @EntryPoint()
     operation Main() : Unit {
-        MakeCircuit();
+        MakeCircuit(4, 4.0, 4.0); // function to build circuit, change parameters in unit test )
     }
     
     operation Rzz(register: Qubit[], theta: Double, indexC: Int, indexT: Int) : Unit {
@@ -32,10 +32,8 @@ namespace QAOA {
 
     }
 
-    operation MakeCircuit() : Unit {
-        use register = Qubit[4];
-        let gamma = 4.0;
-        let beta = 3.0;
+    operation MakeCircuit(num_qubits: Int, gamma: Double, beta: Double) : Unit {
+        use register = Qubit[num_qubits];
         ApplyToEach(H, register);
         ProblemUnitary(register, gamma);
         MixingUnitary(register, beta);
