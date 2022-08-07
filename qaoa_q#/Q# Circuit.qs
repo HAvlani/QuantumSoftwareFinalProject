@@ -39,4 +39,4 @@ namespace QAOA {
         MixingUnitary(register, beta);
         ResetAll(register);
     }
-}
+} 
