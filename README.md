@@ -1,4 +1,4 @@
-# QuantumSoftwareFinalProject
+# Quantum Software Final Project
 by Harshil Avlani, Christina Trinh, Vibusha Vadivel, Audrey Wei
 
 ## Description
