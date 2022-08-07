@@ -7123,19 +7123,19 @@
     ]
   },
   "packageFolders": {
-    "/Users/harshilavlani/.nuget/packages/": {}
+    "/Users/heartyt/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/harshilavlani/QuantumSoftwareFinalProject/QAOA/QAOA.csproj",
+      "projectUniqueName": "/Users/heartyt/bwsi_quantum/exercises and testing/QuantumSoftwareFinalProject/QAOA/QAOA.csproj",
       "projectName": "QAOA",
-      "projectPath": "/Users/harshilavlani/QuantumSoftwareFinalProject/QAOA/QAOA.csproj",
-      "packagesPath": "/Users/harshilavlani/.nuget/packages/",
-      "outputPath": "/Users/harshilavlani/QuantumSoftwareFinalProject/QAOA/obj/",
+      "projectPath": "/Users/heartyt/bwsi_quantum/exercises and testing/QuantumSoftwareFinalProject/QAOA/QAOA.csproj",
+      "packagesPath": "/Users/heartyt/.nuget/packages/",
+      "outputPath": "/Users/heartyt/bwsi_quantum/exercises and testing/QuantumSoftwareFinalProject/QAOA/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/Users/harshilavlani/.nuget/NuGet/NuGet.Config"
+        "/Users/heartyt/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net6.0"
@@ -7204,7 +7204,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.107/RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.301/RuntimeIdentifierGraph.json"
       }
     }
   }
