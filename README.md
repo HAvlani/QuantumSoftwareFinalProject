@@ -2,7 +2,7 @@
 by Harshil Avlani, Christina Trinh, Vibusha Vadivel, Audrey Wei
 
 ## Description
-Our project involved the implementation (Qiskit, Q#), resource estimation, and analysis of the Quantum Approximation Optimization Algorithm (QAOA) on MAX-CUT and the Traveling Salesman Problem (TSP). To learn QAOA, we used research papers, the Qiskit textbook, and articles. The code we used to explore QAOA, compare resource estimations on different simulators, and test different parapeters, as well as incomplete approaches in need of further exploration are included in this repository.
+Our project involved the implementation (Qiskit, Q#), resource estimation, and analysis of the Quantum Approximation Optimization Algorithm (QAOA) on MAX-CUT and the Traveling Salesman Problem (TSP). To learn QAOA, we used research papers, the Qiskit textbook, and articles. The code we used to explore QAOA, compare resource estimations on different simulators, and test different parapeters, as well as incomplete approaches in need of further exploration, are included in this repository.
 
 ## References
 https://www.mustythoughts.com/quantum-approximate-optimization-algorithm-explained
