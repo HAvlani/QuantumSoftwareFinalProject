@@ -14,6 +14,6 @@ Where $C$ and $B$ are the cost and mixing Hamiltonians, respectively. The cost H
 
 QAOA uses a parameterized circuit, which can be optimized using classical optimization techniques to find the best parameters that minimize the cost function of the problem. The algorithm can be run multiple times with different initial parameters to increase the probability of finding the global minimum.
 
-This implementation of QAOA includes modifications $C$ and $B$ to solve both the [MAXCUT](https://en.wikipedia.org/wiki/Maximum_cut) problem and the [Travelling Salesman Problem](https://en.wikipedia.org/wiki/Travelling_salesman_problem) (TSP). 
+This implementation of QAOA includes modifications of $C$ and $B$ to solve both the [MAXCUT](https://en.wikipedia.org/wiki/Maximum_cut) problem and the [Travelling Salesman Problem](https://en.wikipedia.org/wiki/Travelling_salesman_problem) (TSP). 
 
 
